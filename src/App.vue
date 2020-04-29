@@ -19,7 +19,8 @@ export default {
           title: "wash cloths",
           completed: false
         },
-        { id: 2, title: "trim hair", completed: false }
+        { id: 2, title: "trim hair", completed: false },
+        { id: 3, title: "do homework", completed: true }
       ]
     };
   }
