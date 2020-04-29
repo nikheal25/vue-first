@@ -4,7 +4,7 @@
     <br />
     <div v-for="item in todos" v-bind:key="item.id">
       <h3>{{item.id}}</h3>
-      <TodoItem v-bind:dataItem="item" />
+      <TodoItem v-bind:dataItem="item" v-on:delete-todo="$emit('del-todo', item.id)" />
       <hr />
     </div>
   </div>

@@ -5,6 +5,7 @@
       {{dataItem.title}}
     </p>
     <p>{{dataItem.completed}}</p>
+    <button @click="$emit('delete-todo', dataItem.id)">DELETE</button>
   </div>
 </template>
 
